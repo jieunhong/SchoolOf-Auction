@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181867403775",
+    "firebase_url": "https://schoolauctionreal.firebaseio.com",
+    "project_id": "schoolauctionreal",
+    "storage_bucket": "schoolauctionreal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181867403775:android:97288a2ae452be85",
+        "android_client_info": {
+          "package_name": "com.example.dodo1305.schoolauctionreal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181867403775-cjqgm1tmgqitgco777j1jtper7cfhc4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dodo1305.schoolauctionreal",
+            "certificate_hash": "99c01feb9fc02b3d6951cd516ad767f741f228b9"
+          }
+        },
+        {
+          "client_id": "181867403775-ch5ljt4u1kdt8tbcjt1jar17un5mhh9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZTLQ2hbph4sOGhrdQhBecwyHyEihqFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181867403775-ch5ljt4u1kdt8tbcjt1jar17un5mhh9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
