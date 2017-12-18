@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dodo1305.schoolauctionreal">
+    package="com.example.emirim.schoolauctionreal">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,24 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.emirim.schoolauctionreal.MainActivity">
 
         </activity>
-        <activity android:name=".BoardActivity" />
-        <activity android:name=".mypage" />
+        <activity android:name="com.example.emirim.schoolauctionreal.BoardActivity" />
+        <activity android:name="com.example.emirim.schoolauctionreal.mypage" />
         <activity
-            android:name=".Write"
+            android:name="com.example.emirim.schoolauctionreal.Write"
             android:label="@string/title_activity_write"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.example.emirim.schoolauctionreal.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SigninActivity" />
+        <activity android:name="com.example.emirim.schoolauctionreal.LoginActivity" />
+        <activity android:name="com.example.emirim.schoolauctionreal.SigninActivity" />
     </application>
 
 </manifest>

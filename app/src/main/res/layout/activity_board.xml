@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="145dp"
-    tools:context="com.example.dodo1305.schoolauctionreal.BoardActivity">
+    tools:context="com.example.emirim.schoolauctionreal.BoardActivity">
 
         <android.support.v7.widget.RecyclerView
             android:background="@color/colorText"

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:layout_marginTop="145dp"
-    tools:context="com.example.dodo1305.schoolauctionreal.SellFragment">
+    tools:context="com.example.emirim.schoolauctionreal.SellFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

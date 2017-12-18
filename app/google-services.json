@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "146186900233",
-    "firebase_url": "https://schoolofauction.firebaseio.com",
-    "project_id": "schoolofauction",
-    "storage_bucket": "schoolofauction.appspot.com"
+    "project_number": "62838597305",
+    "firebase_url": "https://schoolof-auction-master.firebaseio.com",
+    "project_id": "schoolof-auction-master",
+    "storage_bucket": "schoolof-auction-master.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:146186900233:android:97288a2ae452be85",
+        "mobilesdk_app_id": "1:62838597305:android:df8fc4b45ad721f0",
         "android_client_info": {
-          "package_name": "com.example.dodo1305.schoolauctionreal"
+          "package_name": "com.example.emirim.schoolauctionreal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "146186900233-rqro03d28q6rlfu2sj6tsj82c1t2f3bt.apps.googleusercontent.com",
+          "client_id": "62838597305-fine46bhp9jo0k8ar0hi3fc391pig2bu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.dodo1305.schoolauctionreal",
+            "package_name": "com.example.emirim.schoolauctionreal",
             "certificate_hash": "5e8b5fc0c603201d2b7ce1362e7575f150fb1903"
           }
         },
         {
-          "client_id": "146186900233-10cbsrurmijjh18b3gherth4c51ekhcd.apps.googleusercontent.com",
+          "client_id": "62838597305-p5556e2bavct033a4se6evlb0fkifkhb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB4jbAP8Sl1WlaVGNURmKJ3UW_Z0oGpkZM"
+          "current_key": "AIzaSyCzhE1TiUoVxxpNgj2FAhFJ-_rmPjJQRWE"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "146186900233-10cbsrurmijjh18b3gherth4c51ekhcd.apps.googleusercontent.com",
+              "client_id": "62838597305-p5556e2bavct033a4se6evlb0fkifkhb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
