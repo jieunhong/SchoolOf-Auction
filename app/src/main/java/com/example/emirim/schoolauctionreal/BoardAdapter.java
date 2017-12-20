@@ -6,7 +6,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.emirim.schoolauctionreal.model.Post;
 
 import java.util.ArrayList;
 
@@ -14,16 +17,27 @@ import java.util.ArrayList;
  * Created by dodo1 on 2017-12-17.
  */
 public class BoardAdapter extends RecyclerView.Adapter<BoardAdapter.ViewHolder> {
-    private final int resource;
     private Context context;
     private ArrayList<String> list;
 
-    public BoardAdapter(Context context, @AnyRes int resource, ArrayList<String> list) {
-        this.resource = resource;
-        this.context = context;
-        this.list = list;
+    public TextView titleView;
+    public TextView authorView;
+    public TextView categoryView;
+
+    public BoardAdapter(View itemView) {
+        super(itemView);
+
+        titleView = (TextView) itemView.findViewById(R.id.title);
+        authorView = (TextView) itemView.findViewById(R.id.author);
+        categoryView = (TextView)itemView.findViewById(R.id.category);
     }
 
+    public void bindToPost(Post post, View.OnClickListener starClickListener) {
+        titleView.setText(post.title);
+        authorView.setText(post.author);
+
+    }
+    /*
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(resource, null);
@@ -68,7 +82,7 @@ public class BoardAdapter extends RecyclerView.Adapter<BoardAdapter.ViewHolder> 
             title= (TextView) parent.findViewById(R.id.title);
             content=(TextView)parent.findViewById(R.id.content);
         }
-    }
+    }*/
 }
 
 
