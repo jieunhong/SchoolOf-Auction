@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +43,20 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar.setPadding(0, 0, 0, 0);//for tab otherwise give space in tab
         toolbar.setContentInsetsAbsolute(0, 0);
+
+        findViewById(R.id.fab_sell_post).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Sell_Write_Activity.class));
+            }
+        });
+
+        findViewById(R.id.fab_buy_post).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Buy_Write_Activity.class));
+            }
+        });
 
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);

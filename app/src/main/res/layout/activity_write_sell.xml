@@ -23,14 +23,12 @@
         android:layout_below="@id/back">
 
         <EditText
-
+            android:layout_margin="10dp"
             android:id="@+id/field_body"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
             android:layout_below="@+id/field_title"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
             android:background="@drawable/item_bg_4_1"
             android:inputType="textMultiLine"
             android:maxLines="10"
@@ -91,8 +89,45 @@
             android:id="@+id/var3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:background="@color/colorText" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/var3"
+            android:id="@+id/price_text"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_bg_4"
+            android:gravity="center_vertical"
+            android:text="가 격"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/field_price"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/var4"
+            android:layout_alignTop="@+id/var3"
+            android:layout_toEndOf="@+id/price_text"
+            android:background="@null"
+            android:hint="가격을 입력해주세요"
+            android:maxLines="1"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_below="@id/price_text"
+            android:id="@+id/var4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
             android:background="@color/colorText"
             android:layout_marginTop="10dp" />
+
 
 
         <Button
@@ -104,31 +139,19 @@
             android:layout_height="wrap_content"
             android:background="@drawable/item_bg_4"
             android:layout_marginTop="23dp"
-            android:layout_below="@+id/field_body"
+            android:layout_below="@+id/var4"
             android:layout_centerHorizontal="true" />
 
 
         <Spinner
-            android:textAlignment="center"
-            android:entries="@array/category_item"
+            android:layout_marginRight="10dp"
             android:id="@+id/field_category"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/field_body"
-            android:layout_alignRight="@+id/field_body"
-            android:layout_alignEnd="@+id/field_body"
-            android:layout_toRightOf="@+id/fab_submit_post"
-            android:layout_toEndOf="@+id/fab_submit_post" />
-        <Spinner
-            android:textAlignment="center"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/var1"
+            android:layout_toEndOf="@+id/field_title"
             android:entries="@array/category_item"
-            android:id="@+id/field_category"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_above="@+id/field_body"
-            android:layout_alignRight="@+id/field_body"
-            android:layout_alignEnd="@+id/field_body"
-            android:layout_toRightOf="@+id/fab_submit_post"
-            android:layout_toEndOf="@+id/fab_submit_post" />
+            android:textAlignment="center" />
     </RelativeLayout>
 </RelativeLayout>

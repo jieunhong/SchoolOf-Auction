@@ -16,10 +16,6 @@
         </activity>
         <activity android:name="com.example.emirim.schoolauctionreal.BoardActivity" />
         <activity android:name="com.example.emirim.schoolauctionreal.mypage" />
-        <activity
-            android:name="com.example.emirim.schoolauctionreal.Write"
-            android:label="@string/title_activity_write"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name="com.example.emirim.schoolauctionreal.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +25,9 @@
         </activity>
         <activity android:name="com.example.emirim.schoolauctionreal.LoginActivity" />
         <activity android:name="com.example.emirim.schoolauctionreal.SigninActivity" />
+        <activity android:name=".Edit_MyPage_Activity"/>
+        <activity android:name=".Buy_Write_Activity"/>
+        <activity android:name=".Sell_Write_Activity"/>
     </application>
 
 </manifest>

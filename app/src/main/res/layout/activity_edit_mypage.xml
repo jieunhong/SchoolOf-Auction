@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/item_bg_5"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_margin="25dp"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="사용자 정보 수정"
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <EditText
+                android:id="@+id/signin_activity_name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/signin_activity_school_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="school" />
+
+
+            <EditText
+                android:id="@+id/signin_activity_phone_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="phone" />
+
+            <Button
+                android:id="@+id/ok_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="수정하기" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

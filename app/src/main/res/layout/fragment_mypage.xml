@@ -1,9 +1,85 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="com.example.emirim.schoolauctionreal.BuyFragment">
+    android:layout_marginTop="145dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context="com.example.emirim.schoolauctionreal.mypage">
 
 
-</FrameLayout>
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/my_phone_field"
+        android:text="수정하기" />
+
+    <TextView
+        android:id="@+id/user_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="User Information"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_below="@+id/user_information"
+        android:id="@+id/my_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"/>
+    <TextView
+        android:layout_below="@+id/user_information"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/my_name_text"
+        android:id="@+id/my_name_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/my_school_text"
+        android:layout_below="@id/my_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학교"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/my_name_text"
+        android:layout_toRightOf="@id/my_school_text"
+        android:id="@+id/my_school_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/my_phone_text"
+        android:layout_below="@id/my_school_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/my_school_text"
+        android:layout_toRightOf="@id/my_phone_text"
+        android:id="@+id/my_phone_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@id/edit_button"
+        android:id="@+id/my_board_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내가 올린 게시글"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/my_board_list_text"
+        android:id="@+id/my_board_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
